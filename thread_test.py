@@ -20,6 +20,8 @@ t2 = threading.Thread(target=do_something)
 start = timeit.default_timer()
 t1.start()
 t2.start()
+t1.join()
+t2.join()
 end = timeit.default_timer()
 
 logger.info("Execution took %f seconds", end - start)

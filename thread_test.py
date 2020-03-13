@@ -14,14 +14,19 @@ def do_something():
     time.sleep(1)
     logger.info("Wait was done")
 
-t1 = threading.Thread(target=do_something)
-t2 = threading.Thread(target=do_something)
+
+threads = list()
+
+for _ in range(10):
+    t = threading.Thread(target=do_something)
+    threads.append(t)
+
 
 start = timeit.default_timer()
-t1.start()
-t2.start()
-t1.join()
-t2.join()
+for thread in threads:
+    thread.start()
+for thread in threads:
+    thread.join()
 end = timeit.default_timer()
 
 logger.info("Execution took %f seconds", end - start)

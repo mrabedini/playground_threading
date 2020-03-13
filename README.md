@@ -14,3 +14,7 @@ The result of the first 10 minutes of the tutorial.
 codes: http://bit.ly/2UgbBNN
 It is threading_without_args that is implemented with list so running 10 do_something would be easy. 
 The result of the first 13 minutes of the tutorial.
+
+## threading_with_args
+codes: http://bit.ly/38MmThK
+In this branch passing arguments to threads is illustrated.

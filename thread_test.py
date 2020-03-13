@@ -15,8 +15,8 @@ def do_something(wait_time):
     logger.info("Wait was done for %d seconds.", wait_time)
 
 
-t1 = threading.Thread(target=do_something,args=[1])
-t2 = threading.Thread(target=do_something,args=[2])
+t1 = threading.Thread(target=do_something,kwargs={"wait_time":1})
+t2 = threading.Thread(target=do_something,kwargs={"wait_time":2})
 
 start = timeit.default_timer()
 t1.start()

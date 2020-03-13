@@ -18,3 +18,7 @@ The result of the first 13 minutes of the tutorial.
 ## threading_with_args
 codes: http://bit.ly/38MmThK
 In this branch passing arguments to threads is illustrated.
+
+## threading_with_kwargs
+codes: http://bit.ly/2U1yaFI
+In this branch passing keyword arguments (kwargs) to threads is illustrated.

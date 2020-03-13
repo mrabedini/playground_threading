@@ -22,3 +22,7 @@ In this branch passing arguments to threads is illustrated.
 ## threading_with_kwargs
 codes: http://bit.ly/2U1yaFI
 In this branch passing keyword arguments (kwargs) to threads is illustrated.
+
+## thread_with_pool_executor
+codes: http://bit.ly/2TNMJ0M
+`ThreadPoolExecutor` used to run do_something with different `wait_time`s.

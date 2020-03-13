@@ -9,3 +9,7 @@ https://youtu.be/IEEhzQoKtQU
 codes: http://bit.ly/33lplL5
 A threading example which no args are passed as argument.
 The result of the first 10 minutes of the tutorial.
+
+## threading_without_args_list_implemented
+codes: http://bit.ly/2UgbBNN
+It is threading_without_args that is implemented with list so running 10 do_something would be easy. 
